@@ -1,4 +1,4 @@
-name: Generate snake animation
+name:snake 
 
 on:
   schedule: # execute every 12 hours
@@ -28,5 +28,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add dist/snake.svg
-          git commit -m "Generate snake.svg"
+          git commit -m "snake.svg"
           git push
